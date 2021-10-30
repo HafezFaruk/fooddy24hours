@@ -12,6 +12,7 @@ import AddService from './Pages/AddService/AddService';
 import ManageServices from './Pages/ManageServices/ManageServices';
 import UpdateUser from './Pages/UpdateUser/UpdateUser';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import OfferDetails from './Pages/OfferDetails/OfferDetails';
 
 function App() {
   return (
@@ -34,6 +35,11 @@ function App() {
             <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
             </PrivateRoute>
+            
+            <PrivateRoute path="/OfferDetails/:OfferId">
+              <OfferDetails></OfferDetails>
+            </PrivateRoute>
+
             <Route path="/addService">
               <AddService></AddService>
             </Route>
@@ -43,6 +49,7 @@ function App() {
             <Route path="/updateServices/:id">
               <UpdateUser></UpdateUser>
             </Route>
+
             <Route path="*">
               <NotFound></NotFound>
             </Route>

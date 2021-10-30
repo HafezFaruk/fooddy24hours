@@ -10,6 +10,8 @@ const ManageServices = () => {
     }, [])
 
     const handleDelete = id => {
+      const confirm = window.confirm('ar you delete')
+      if (confirm) {
         const url = `http://localhost:5000/services/${id}`;
         fetch(url, {
             method: 'DELETE'
@@ -24,6 +26,7 @@ const ManageServices = () => {
                 }
 
             })
+      }
     }
     const handleUpdate = id => {
 
