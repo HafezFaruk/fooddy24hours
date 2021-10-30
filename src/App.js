@@ -1,63 +1,62 @@
 import './App.css';
-import Home from './Pages/Home/Home/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import NotFound from './Pages/NotFound/NotFound';
-import Booking from './Pages/Booking/Booking/Booking';
-import Login from './Pages/Login/Login/Login';
-import AuthProvider from './contexts/AuthProvider';
-import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
-import Header from './Pages/Shared/Header/Header';
-import Footer from './Pages/Shared/Footer/Footer';
-import AddService from './Pages/AddService/AddService';
-import ManageServices from './Pages/ManageServices/ManageServices';
-import UpdateUser from './Pages/UpdateUser/UpdateUser';
+// import '../src/Bootstrap/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import OfferDetails from './Pages/OfferDetails/OfferDetails';
+
+import AuthProvider from './contexts/AuthProvider';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Header from './Pages/Header/Header';
+import Footer from './Pages/Footer/Footer';
+import Home from './Pages/Home/Home';
+import NotFound from './Pages/NotFound/NotFound';
+import LogIn from './Pages/LogIn/LogIn';
+import AddFood from './Pages/AddFood/AddFood';
+import PlaceOrder from './Pages/PlaceOrder/PlaceOrder';
+import ManageOrders from './Pages/ManageOrders/ManageOrders';
+import PrivateRoute from './routes/PrivateRoute';
+import MyOrders from './Pages/MyOrders/MyOrders';
+import UpdateStatus from './Pages/UpdateStatus/UpdateStatus';
+
 
 function App() {
   return (
     <div className="App">
       <AuthProvider>
         <Router>
-          <Header></Header>
+          <Header />
           <Switch>
             <Route exact path="/">
               <Home></Home>
             </Route>
-            
-            <Route path="/home">
+            <Route exact path="/home">
               <Home></Home>
             </Route>
-            <Route path="/login">
-              <Login></Login>
+            <Route exact path="/login">
+              <LogIn />
             </Route>
-          
-            <PrivateRoute path="/booking/:serviceId">
-              <Booking></Booking>
+            <PrivateRoute exact path="/addFood">
+              <AddFood />
             </PrivateRoute>
-            
-            <PrivateRoute path="/OfferDetails/:OfferId">
-              <OfferDetails></OfferDetails>
+            <PrivateRoute exact path="/placeorder/:id">
+              <PlaceOrder />
             </PrivateRoute>
-
-            <Route path="/addService">
-              <AddService></AddService>
+            <PrivateRoute exact path="/myorders">
+              <MyOrders />
+            </PrivateRoute>
+            <PrivateRoute exact path="/manageorders">
+              <ManageOrders />
+            </PrivateRoute>
+            <Route exact path="/update/:id">
+              <UpdateStatus />
             </Route>
-            <Route path="/manageServices">
-              <ManageServices></ManageServices>
-            </Route>
-            <Route path="/updateServices/:id">
-              <UpdateUser></UpdateUser>
-            </Route>
-
-            <Route path="*">
-              <NotFound></NotFound>
+            <Route exact path="*">
+              <NotFound />
             </Route>
           </Switch>
-          <Footer></Footer>
+          <Footer />
         </Router>
       </AuthProvider>
     </div>
   );
 }
+
 export default App;
