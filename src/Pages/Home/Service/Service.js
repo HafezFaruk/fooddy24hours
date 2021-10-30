@@ -14,6 +14,9 @@ const Service = ({ service }) => {
             <Link to={`/booking/${_id}`}>
                 <button className="btn btn-success">Food Review</button>
             </Link>
+            <Link to={`/booking/${_id}`}>
+                <button className="btn btn-success">Add to card</button>
+            </Link>
         </div>
     );
 };
