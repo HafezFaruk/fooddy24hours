@@ -6,7 +6,7 @@ const MyOrders = () => {
     const {user} = useFirebase();
     const [myOrders, setMyOrders] = useState([]);
     useEffect(()=> {
-        fetch(`http://localhost:5000/myorders/${user?.email}`)
+        fetch(`https://ghostly-goosebumps-39347.herokuapp.com/myorders/${user?.email}`)
         .then(res => res.json())
         .then(data => setMyOrders(data))
     }, [user.email])

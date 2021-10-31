@@ -32,10 +32,7 @@ const useFirebase = () => {
       return  signInWithPopup(auth, googleProvider)
     
      }
-   
-   
-   
-   
+  
     const logOut=()=> {
         console.log("logouttttt");
        signOut(auth).then(() => {
