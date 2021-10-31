@@ -4,7 +4,7 @@ import { FaGooglePlay} from "react-icons/fa";
 
 const AboudUs = () => {
     return (
-        <div>
+        <div className="mb-5">
             <Row>
                 <Col>
                     <h1 className="pt-5">WELCOME!</h1>

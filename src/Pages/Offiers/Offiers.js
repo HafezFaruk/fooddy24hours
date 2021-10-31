@@ -1,46 +1,50 @@
-import React, { useEffect, useState } from 'react';
-import { Spinner } from 'react-bootstrap';
-import Offier from '../Offier/Offier';
+import React from 'react';
 
 const Offiers = () => {
-        const [services, setServices] = useState([]);
-        useEffect(() => {
-            fetch('http://localhost:5000/services')
-                .then(res => res.json())
-                .then(data => setServices(data));
-        }, [])
-        return (
-            <div className="add-food py-5 text-center">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="section-title mb-4">
-                                <h2>Our Food Menu</h2>
-                            </div>
+    return (
+        <div className="mb-5">
+            <h5>WHY FOODDY_24.H?</h5>
+            <h1>We Care for Your Precious Time.</h1>
+            <div className="row row-cols-1 row-cols-md-2 g-4">
+                <div className="col">
+                    <div className="card">
+                        <img src="https://i.ibb.co/wLCW4g7/w4.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">The Best Delivery</h5>
+                            <p>Our high quality delivery is faster than other delivery companies and you will receive your order within the stipulated time.</p>
                         </div>
                     </div>
-                    {
-                        services.length === 0 ?
-                            <Spinner animation="border" />
-                            :
-                            <div className="row">
-                                {
-                                  services.map(service => <Offier
-                                    key={service._id}
-                                    service={service}
-                                  ></Offier>)
-                                }
-                            </div>
-                    }
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="https://i.ibb.co/KxYy3KD/w3.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">The Best Courier</h5>
+                            <p>We have the opportunity to build a high quality career here so far we have to take 100 plus people here to the employment system. Our hope is to build</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="https://i.ibb.co/Z1Mwjph/w2.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Staff healthcare</h5>
+                            <p>We motivate each and every one of our employees to work with health awareness and everyone is rewarded with a house rent including health page</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card">
+                        <img src="https://i.ibb.co/Ct1hsK8/w1.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">24/7 Support</h5>
+                            <p>Advanced support such as delivery of the product to you if you still have a problem, you can return the product if you want and who cares about</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        );
-    };
+        </div>
+    );
+};
 
-    export default Offiers;
-
-
-    // services.map(service => <SingleMenu
-    //     key={service._id}
-    //     service={service}
-    // ></SingleMenu>)
+export default Offiers;
