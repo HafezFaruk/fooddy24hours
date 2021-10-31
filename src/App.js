@@ -1,7 +1,5 @@
 import './App.css';
-// import '../src/Bootstrap/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import AuthProvider from './contexts/AuthProvider';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Pages/Header/Header';

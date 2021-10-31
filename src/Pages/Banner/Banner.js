@@ -1,28 +1,49 @@
 import React from 'react';
-import './Banner.css';
-
+import { Carousel } from 'react-bootstrap';
+import banner1 from '../../images/banner/banner1.jpg';
+import banner2 from '../../images/banner/banner2.jpg';
+import banner3 from '../../images/banner/banner3.jpg';
 const Banner = () => {
     return (
         <>
-            <div className="banner-area d-flex justify-content-center align-items-center">
-                <div className="container">
-                    <div className="row col">
-                        <div className="banner-content text-center text-white">
-                            <h1>"KHANA"</h1>
-                            <h1>Food Delivery & Services</h1>
-                            <div className="searchBox mt-4">
-                                <h3 className="text-white">Search Best Foods For You?</h3>
-                                <div className="input-group mt-4 mb-3 mx-auto">
-                                    <input  type="text" className="form-control me-3 bg-white" placeholder="Type Place, City" />
-                                    <input  type="text" className="form-control me-3 bg-white" placeholder="Restaurants" />
-                                    <button className="btn text-white px-4 theme-bg ">Search</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>  
-        </>
+        <Carousel>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={banner1}
+                    alt="First slide"
+                />
+                <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={banner2}
+                    alt="Second slide"
+                />
+
+                <Carousel.Caption>
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={banner3}
+                    alt="Third slide"
+                />
+
+                <Carousel.Caption>
+                    <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
+    </>
     );
 };
 

@@ -10,7 +10,7 @@ const FoodItems = () => {
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])
-// 51 4
+
     return (
         <div className="add-food py-5 text-center">
             <div className="container">

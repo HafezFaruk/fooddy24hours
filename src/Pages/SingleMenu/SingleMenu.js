@@ -16,11 +16,11 @@ const SingleMenu = ({ service }) => {
                         {/* <button className="btn mt-4 text-center text-white theme-bg">{}}</button> */}
                     </div>
                 </div>
-                <h6>Price: {price}</h6>
-                <p className="text-justify">{description}</p>
+                <h3>Price: {price}</h3>
+                <p className="text-justify">{description.slice(0,80)}</p>
                 <div className="text-center">
                     <Link to={`/placeorder/${_id}`}>
-                        <button className="btn text-center text-white theme-bg">Order Now</button>
+                        <button className="btn btn-primary text-center text-white">Order Now</button>
                     </Link> 
                 </div>
             </div>

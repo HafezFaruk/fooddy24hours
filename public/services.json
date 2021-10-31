@@ -1,62 +1,64 @@
 [
     {
-        "img": "http://placehold.it/32x32",
-        "name": "Potts Mccarthy",
-        "price": "300",
-        "description": "Ut ut consectetur esse ea proident laboris culpa culpa consequat. Sint ipsum Lorem laboris magna amet consectetur nisi adipisicing voluptate et eu velit et ad. Nisi nostrud dolore id dolor duis elit.\r\n"
+        "img": "https://i.ibb.co/cv0Pp87/1.jpg",
+        "name": "Pizza Delivery",
+        "price": "320",
+        "description": "Our pizzas are made by women in the family, they can rent them at their own risk and our company works to deliver them."
+    },
+   
+    {
+        "img": "https://i.ibb.co/VQd7zLg/3.jpg",
+        "name": "Burgers",
+        "price": "340",
+        "description": "These fastfoods are made by small restaurants in the area that are run by students. We help those students deliver their food to the customer."
     },
     {
-        "img": "http://placehold.it/32x32",
-        "name": "Potts Mccarthy",
-        "price": "300",
-        "description": "Ut ut consectetur esse ea proident laboris culpa culpa consequat. Sint ipsum Lorem laboris magna amet consectetur nisi adipisicing voluptate et eu velit et ad. Nisi nostrud dolore id dolor duis elit.\r\n"
+        "img": "https://i.ibb.co/drKY70f/5.jpg",
+        "name": "Vegetable ingredients",
+        "price": "680",
+        "description": "Different women of the house order from their home through different online marketing wards and also send the orders to our website and from there we deliver to the house."
     },
     {
-        "img": "http://placehold.it/32x32",
-        "name": "Potts Mccarthy",
-        "price": "300",
-        "description": "Ut ut consectetur esse ea proident laboris culpa culpa consequat. Sint ipsum Lorem laboris magna amet consectetur nisi adipisicing voluptate et eu velit et ad. Nisi nostrud dolore id dolor duis elit.\r\n"
+        "img": "https://i.ibb.co/4gNbk89/6.jpg",
+        "name": "The chatterbox",
+        "price": "100",
+        "description": "We deliver Fuchka Chatpati Halim to the companies from that place by ordering the customer from the advanced restaurant and sending the message on our website."
     },
     {
-        "img": "http://placehold.it/32x32",
-        "name": "Potts Mccarthy",
-        "price": "300",
-        "description": "Ut ut consectetur esse ea proident laboris culpa culpa consequat. Sint ipsum Lorem laboris magna amet consectetur nisi adipisicing voluptate et eu velit et ad. Nisi nostrud dolore id dolor duis elit.\r\n"
+        "img": "https://i.ibb.co/TBhytN3/7.jpg",
+        "name": "Khasir Kachchi",
+        "price": "500",
+        "description": "Khasir Kachchi Birani made by a completely fresh housewife is delivered to you by our Delivery Boy."
+    },
+  
+    {
+        "img": "https://i.ibb.co/yNSZPSJ/9.jpg",
+        "name": "Family food",
+        "price": "1250",
+        "description": "We have facilities for all the families who are busy families. They will go to different restaurants and order different meals. Our delivery"
     },
     {
-        "img": "http://placehold.it/32x32",
-        "name": "Potts Mccarthy",
-        "price": "300",
-        "description": "Ut ut consectetur esse ea proident laboris culpa culpa consequat. Sint ipsum Lorem laboris magna amet consectetur nisi adipisicing voluptate et eu velit et ad. Nisi nostrud dolore id dolor duis elit.\r\n"
+        "img": "https://i.ibb.co/RgfqSjp/10.jpg",
+        "name": "Raw vegetables",
+        "price": "360",
+        "description": "Daily office people collect raw vegetables from different markets and deliver them to women through women."
     },
     {
-        "img": "http://placehold.it/32x32",
-        "name": "Potts Mccarthy",
-        "price": "300",
-        "description": "Ut ut consectetur esse ea proident laboris culpa culpa consequat. Sint ipsum Lorem laboris magna amet consectetur nisi adipisicing voluptate et eu velit et ad. Nisi nostrud dolore id dolor duis elit.\r\n"
+        "img": "https://i.ibb.co/rc3kG4Z/15.jpg",
+        "name": "Chicken fry",
+        "price": "400",
+        "description": "Family Women Cooking Chicken Pulses Ordered Online Delivered to Our Delivery Song Customer"
     },
     {
-        "img": "http://placehold.it/32x32",
-        "name": "Potts Mccarthy",
-        "price": "300",
-        "description": "Ut ut consectetur esse ea proident laboris culpa culpa consequat. Sint ipsum Lorem laboris magna amet consectetur nisi adipisicing voluptate et eu velit et ad. Nisi nostrud dolore id dolor duis elit.\r\n"
+        "img": "https://i.ibb.co/SxfJHfF/11.jpg",
+        "name": "Pasta",
+        "price": "120",
+        "description": "Official people order different meals from different restaurants from our website they deliver our delivery boy to them"
     },
     {
-        "img": "http://placehold.it/32x32",
-        "name": "Potts Mccarthy",
-        "price": "300",
-        "description": "Ut ut consectetur esse ea proident laboris culpa culpa consequat. Sint ipsum Lorem laboris magna amet consectetur nisi adipisicing voluptate et eu velit et ad. Nisi nostrud dolore id dolor duis elit.\r\n"
-    },
-    {
-        "img": "http://placehold.it/32x32",
-        "name": "Potts Mccarthy",
-        "price": "300",
-        "description": "Ut ut consectetur esse ea proident laboris culpa culpa consequat. Sint ipsum Lorem laboris magna amet consectetur nisi adipisicing voluptate et eu velit et ad. Nisi nostrud dolore id dolor duis elit.\r\n"
-    },
-    {
-        "img": "http://placehold.it/32x32",
-        "name": "Potts Mccarthy",
-        "price": "300",
-        "description": "Ut ut consectetur esse ea proident laboris culpa culpa consequat. Sint ipsum Lorem laboris magna amet consectetur nisi adipisicing voluptate et eu velit et ad. Nisi nostrud dolore id dolor duis elit.\r\n"
+        "img": "https://i.ibb.co/r4r8dh1/12.jpg",
+        "name": "Rooster polao",
+        "price": "130",
+        "description": "When we take the food out of our WhatsApp and select the restaurant, we take the food from that restaurant and deliver it to the customer as lunch."
     }
 ]
