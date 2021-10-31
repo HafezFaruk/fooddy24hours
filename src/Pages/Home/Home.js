@@ -1,17 +1,16 @@
 import React from 'react';
+import AboudUs from '../AboudUs/AboudUs';
 import Banner from '../Banner/Banner';
-import Blog from '../Blog/Blog';
 import FoodItems from '../FoodItems/FoodItems';
-import Works from '../Works/Works';
+import Offiers from '../Offiers/Offiers';
 
 const Home = () => {
     return (
         <div id="#home">
              <Banner />
              <FoodItems />
-             <Works />
-             <Blog />
-            
+             <Offiers></Offiers>
+             <AboudUs></AboudUs>
         </div>
     );
 };

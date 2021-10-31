@@ -14,8 +14,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Medicinal National Food Delivery</h3>
+                    <p className="w-50 mx-auto" >Natural medicines are delivered such as tree neem trees have ingredients national medicines from Nassar</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -26,8 +26,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Family fast food delivery service</h3>
+                    <p>Our fast food national food reaches the family very fast</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -38,8 +38,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3>Natural food delivery activities</h3>
+                <p className="w-50 mx-auto" >Daily natural food is delivered from the village farmers with water in a preserved way</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

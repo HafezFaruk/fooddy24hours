@@ -73,7 +73,7 @@ const PlaceOrder = () => {
                                 <input className="form-control mb-3" placeholder="City" defaultValue="" {...register("city")} />
                                 <input className="form-control mb-3" placeholder="phone number" defaultValue="" {...register("phone")} />
 
-                                <input className="btn theme-bg text-white" type="submit" />
+                                <input className="btn btn-success px-5" type="submit" />
                             </form>
                         </div>
                     </div>

@@ -9,12 +9,7 @@ const SingleMenu = ({ service }) => {
             <div className="card mb-3 single-service p-3">
                 <img src={img} alt="" />
                 <div className="d-flex justify-content-between my-3">
-                    <div>
-                        <h3 className="my-3">{name}</h3>
-                    </div>
-                    <div>
-                        {/* <button className="btn mt-4 text-center text-white theme-bg">{}}</button> */}
-                    </div>
+                     <h3 className="my-3">{name}</h3>
                 </div>
                 <h3>Price: {price}</h3>
                 <p className="text-justify">{description.slice(0,80)}</p>

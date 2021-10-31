@@ -1,5 +1,6 @@
 import logo from '../../images/logo.png';
 import React from 'react';
+import { FaFacebookSquare, FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa";
 
 import './Footer.css';
 const Footer = () => {
@@ -13,6 +14,12 @@ const Footer = () => {
                         <div className="col">
                             <h6>+88 01629 78 63 99</h6>
                             <h6>Dhaka, Bangladesh</h6>
+                            <div className="fs-1">
+                                <FaFacebookSquare />
+                               <span className="mx-4"><FaInstagramSquare /></span>
+                                <FaWhatsappSquare />
+                            </div>
+
                         </div>
                     </div>
                     <div className="py-3">

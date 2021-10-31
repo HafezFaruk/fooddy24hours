@@ -31,14 +31,11 @@ const AddFood = () => {
                     <div className="col-md-6">
                         <div className="single-add-food">
                         <form onSubmit={handleSubmit(onSubmit)}>
-                            <input className="form-control mb-3" {...register("key")} placeholder="Key" />
                             <input className="form-control mb-3" {...register("name")} placeholder="Name" />
                             <input className="form-control mb-3" type="number" {...register("price")} placeholder="price" />
-                            <input className="form-control mb-3" type="text" {...register("restaurantName")} placeholder="restaurant name" />
                             <textarea className="form-control mb-3" {...register("description")} placeholder="Description" />
-                            
                             <input className="form-control mb-3" {...register("img")} placeholder="image url" />
-                            <input type="submit" />
+                            <input className="btn btn-success" type="submit" />
                         </form>
                         </div>
                     </div>
