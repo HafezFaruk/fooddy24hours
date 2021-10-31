@@ -15,7 +15,7 @@ const Header = () => {
                     <Navbar.Brand href="/home">
                         <img src={logo} alt="" />
                     </Navbar.Brand>
-                    <Navbar.Toggle />
+                    <Navbar.Toggle className="bg-dark"/>
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={Link} className="text-dark" to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} className="text-dark" to="/addFood">Add Food</Nav.Link>
